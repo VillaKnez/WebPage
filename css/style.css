@@ -1,0 +1,827 @@
+@media screen and (max-width: 1000px){
+    body{
+        margin: 0 auto;
+        padding: 0;
+    }
+    /* Naslov ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+    header{
+        width: 100%;
+        height: 160px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .Box2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #777777;
+        width: 100%;
+    }
+    header .Box2 .row{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        border: none;
+        height: 20px;
+        padding: 0;
+    }
+    header .Box2 .row p{
+        display: none;
+    }
+    header .Box2 #f i{
+        display: flex;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* Pictures ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .Pictures{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .Pictures .Box1{
+        display: none;
+    }
+    .Pictures img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .Pictures .Box2{
+        display: flex;
+        width: 100%;
+        border: none;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* container_1 ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .container_1{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .slkpoz{
+        display: none;
+    }
+    /* Slike -------------------------------------------- */
+    .slider{
+        display: flex;
+        width: 100%;
+        height: fit-content; 
+    }
+    .slider img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .slider .kutija{
+        display: none;
+    }
+    .container_1 .Slike{
+        display: flex;
+        width: 100%;
+    }
+    .slider .pic1{
+        display: flex;
+        height: 250px; 
+        width: 100%;
+        overflow: hidden;
+    }
+    /* Pokazivači/Buttons ------------------------------- */
+    .container-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 0;
+    }
+    .pokazivaci{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        align-items: center;
+        width: 16,67%;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+    }
+    .pokazivaci button{
+        position: absolute;
+        left: 0;
+        height: 50px;
+        color: black;
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        background-color: #c9c8c8;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .pokazivaci button:hover{
+        background-image: linear-gradient(to right,rgba(51, 54, 224, 0.733),rgba(90, 182, 224, 0.76));
+        color: white;
+        cursor: pointer;
+    }
+    .pokazivaci i{
+        text-align: center;
+        font-size: 20px;
+    }
+    .pokazivaci h4{
+        display: none;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* main_container----------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .main_container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .main_container .lijevo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main_container .desno{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        transform: translateY(-150px);
+
+    }
+    /* Opis objekta ------------------------------------- */
+    .opis{
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .opis h2{
+        text-align: center;
+    }
+    .opis .row p{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 13px;
+    }
+    /* Kontakt obrazac ---------------------------------- */
+    .main_container .obrazac{
+        margin-top: 250px;
+        width: 100%;
+    }
+    .kontejner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kontejner .gornjiobrazac{
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        border:#999;
+        border-width: 10px;
+        border-radius: 5px;
+    }
+    .kontejner .gornjiobrazac .slika{
+        display: flex;
+        justify-content: center;
+    }
+    .kontejner .gornjiobrazac .slika img{
+        position: absolute;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        border: solid 4px;
+        border-color: whitesmoke;
+        margin-top: -50px;
+        box-shadow: inset 0 0 10px rgb(0, 0, 0);
+    }
+    .kontejner .gornjiobrazac .knez{
+        display: flex;
+        justify-content: center;
+        color: #356ca2;
+        margin-top: 25px;
+    }
+    .kontejner .gornjiobrazac .jezik{
+        display: flex;
+        justify-content: center;
+        color: #505050;
+        margin: 0;
+        padding: 0;
+    }
+    .kontejner .gornjiobrazac .govor{
+        display: flex;
+        justify-content: center;
+        color: #999;
+        margin: 0;
+        padding: 0;
+    }
+    .kontejner .gornjiobrazac .Ikone{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .kontejner .gornjiobrazac .Lokacija, .kontejner .gornjiobrazac .Mobitel, .kontejner .gornjiobrazac .Telefon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #505050;
+    }
+    .kontejner .gornjiobrazac .Lokacija h4, .kontejner .gornjiobrazac .Mobitel h4, .kontejner .gornjiobrazac .Telefon h4{
+        margin: 10px;
+    }
+    form input, form select ,form textarea{
+        height: 30px;
+        background-color: whitesmoke;
+        border: none;
+        box-shadow: inset 0 0 10px rgb(172, 172, 172);
+        text-indent: 10px;
+        border-radius: 5px;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    .kontejner .donjiobrazac h2{
+        text-align: center;
+    }
+    .kontejner .donjiobrazac{
+        background-color: white;
+        height: fit-content;
+        width: 100%;
+        border:#999;
+        border-width: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .donjiobrazac .upisi{
+        display: flex; 
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .donjiobrazac .box1, .donjiobrazac .box2, .donjiobrazac .box3, .donjiobrazac .box4, .donjiobrazac .box5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .donjiobrazac .box6, .donjiobrazac .box7,.donjiobrazac .box8, .donjiobrazac .box9, .donjiobrazac .box10{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .donjiobrazac .box1 input{
+        width: 90%;
+    }
+    .donjiobrazac .box2 input{
+        width: 90%;
+    }
+    .donjiobrazac .box3 input{
+        width: 90%;
+    }
+    .donjiobrazac .box4 .dropdown{
+        border-top: 1px solid;
+        border-top-color: #c9c8c8cb;
+        margin-top: 20px;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .donjiobrazac .box4 select{
+        width: 90%;
+    }
+    .donjiobrazac .box4 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box5 .datum1{
+        width: 90%;
+    }
+    .donjiobrazac .box5 input{
+        width: 90%;
+    }
+    .donjiobrazac .box5 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box6 .datum2{
+        width: 90%;
+    }
+    .donjiobrazac .box6 input{
+        width: 90%;
+    }
+    .donjiobrazac .box6 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box7 .odrasli{
+        border-top: 1px solid;
+        border-top-color: #c9c8c8cb;
+        margin-top: 20px;
+        padding-top: 10px;
+        width: 90%;
+    }
+    .donjiobrazac .box7 select{
+        width: 90%;
+    }
+    .donjiobrazac .box7 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box8 .djeca{
+        width: 90%;
+    }
+    .donjiobrazac .box8 select{
+        width: 90%;
+    }
+    .donjiobrazac .box8 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box9 .djeca{
+        width: 90%;
+    }
+    .donjiobrazac .box9 select{
+        width: 90%;
+    }
+    .donjiobrazac .box9 label{
+        font-size: 14px; 
+        padding-left: 0px; 
+        color: #5c5c5c;
+    }
+    .donjiobrazac .box10 .email{
+        width: 90%;
+        border-top: 1px solid;
+        border-top-color: #c9c8c8cb;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .donjiobrazac .box10 textarea{
+        width: 100%; 
+        height: 130px; 
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .donjiobrazac .row{
+        display: flex; 
+        justify-content: center; 
+        margin-top: 15px;
+    }
+    form .row button{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 40px;
+        border: none;
+        background-color: #87ae23;
+        color: white;
+        font-size: 18px;
+    }
+    form .row button:hover{
+        opacity: 1;
+        background-color: #789b1f;
+        cursor: pointer;
+    }
+    /* Smještajne jedinice ------------------------------ */
+    .apartmani{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 15px;
+        background-color: #3c5060;
+        text-align: center;
+        width: 100%;
+    }
+    .apartmani h2{
+        color: white;
+    }
+    .apartmani img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .apartmani .grupa1 .naslov .row h1{
+        padding: 0px;
+        margin: 0px; 
+        color: rgb(19, 117, 209);
+    }
+    .apartmani .grupa1 .naslov .row p{
+        padding: 0px;
+        margin-top: 6px; 
+        font-size: 13px;
+    }
+    .ap{
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 95%;
+        height: fit-content;
+        background-color: white
+    }
+    .ap .kanta{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ap .slika{
+        display: none;
+    }
+    .ap .naslov{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin: auto;
+        height: 70px;
+        margin-top: 15px;
+    }
+    .ap .slikice{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 95%;
+        height: 70px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 1px #c9c8c8;
+        border-top-style: solid;
+        border-bottom: 1px #c9c8c8;
+        border-bottom-style: solid;
+    }
+    .ap .slikice .s1{
+        display: flex;
+        margin-right: 5px;
+        width: 60px;
+        height: 60px;
+    }
+    .ap .cijena{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        margin: auto;
+        margin-top: 10px;
+        position: relative;
+    }
+    .cijena #c1 p, .cijena #c1 h1{
+        display: none;
+    }
+    .cijena #c1{
+        display: none;
+    }
+    .cijena .row button{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        border: none;
+        background-color: rgba(110, 175, 24, 0.856);
+        color: white;
+        font-size: 20px;
+        left: 0;
+        top: 0;
+    }
+    .cijena .row button:hover{
+        opacity: 1;
+        background-color: rgba(49, 112, 12, 0.856);
+        cursor: pointer;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* bottom_container -------------------------------------------------------------------------------------------------------------------------------------------------- */
+    .bottom_container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-top: -120px;
+    }
+    /* Informacije -------------------------------------- */
+    .bottom_container .info{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .bottom_container #info{
+        display: flex;
+        width: 200px;
+        text-align: left;
+        justify-content: center;
+    }
+    .bottom_container .tablica{
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        border-color: #9999997a;
+        width: 100%;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .bottom_container .tablica .unutra{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+    }
+    .bottom_container .tablica .unutra .box1{
+        margin-left: 10px;
+        width: 20%;
+    }
+    .bottom_container .tablica .unutra .box2{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 0;
+    }
+    .bottom_container .tablica .unutra .box2 .moretxt{
+        margin-right: 5px;
+    }
+    .bottom_container .tablica .unutra .box2 .plažatxt{
+        margin-right: 5px;
+    }
+    .bottom_container .tablica .unutra .box2 .centartxt{
+        margin-right: 5px;
+    }
+    .bottom_container .tablica .unutra .box2 .more{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom_container .tablica .unutra .box2 .plaža{
+        margin-left: 0px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom_container .tablica .unutra .box2 .centar{
+        margin-left: 0px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom_container .tablica .unutra .box2 .sea{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 150px;
+    }
+    .bottom_container .tablica .unutra .box2 .beach{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 150px;
+    }
+    .bottom_container .tablica .unutra .box2 .grad{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 150px;
+    }
+    /* Prikaz na karti ---------------------------------- */
+    .bottom_container .mapa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .bottom_container iframe{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* Overlay ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    /* Overlay_1 ---------------------------------------- */
+    #overlay1{
+        position: fixed; 
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    #overlay1 .info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        left: 0;
+        transform: translateX(0%);
+        padding-bottom: 20px;
+    }
+    #overlay1 .info .box1{
+        display: flex;
+        width: 100%;
+        height: 200px;
+    }
+    #overlay1 .info h1{
+        color: white; 
+        font-size: 35px;
+    }
+    #overlay1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #overlay1 .info .box1 .naslov{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50;
+        text-align: center;
+        font-family: 'Gilda Display', serif;
+    }
+    #overlay1 .info .box2{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
+        font-size: 20px;
+    }
+    #overlay1 .info .box2 .podaci{
+        display: flex; 
+        flex-direction: column;
+    }
+    #overlay1 .info .box2 .list2{
+        margin-left: 0px;
+    }
+    #overlay1 .info .box2 .k{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        margin-top: 20px;
+    }
+    #overlay1 .info .box2 .k i{
+        margin: 0;
+        padding: 0;
+        margin-left: 40px;
+        width: 25px;
+    }
+    #overlay1 .info .box2 .k p{
+        margin: 0;
+        margin-left: 20px;
+    }
+    #overlay1 .info .close{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #overlay1 .info .close button{
+        width: 95%;
+        background-color: #c9c8c8cb;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+    #overlay1 .info .close button:hover{
+        background-image: linear-gradient(to right,rgba(51, 54, 224, 0.733),rgba(90, 182, 224, 0.76));
+        color: white;
+        cursor: pointer;
+    }
+    /* Overlay_2 ---------------------------------------- */
+    #overlay2{
+        position: fixed; 
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    #overlay2 .info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        left: 0;
+        transform: translateX(0%);
+        padding-bottom: 20px;
+    }
+    #overlay2 .info .box1{
+        display: flex;
+        width: 100%;
+        height: 200px;
+    }
+    #overlay2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #overlay2 .info .box1 .naslov{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50;
+        text-align: center;
+        font-family: 'Gilda Display', serif;
+    }
+    #overlay2 .box2{
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        margin: 0 auto;
+    }
+    #overlay2 .info .box2 .podaci{
+        display: flex; 
+        flex-direction: column;
+    }
+    #overlay2 .box2 .kutija{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 25%;
+        margin: 0;
+    }
+    #overlay2 .k1, #overlay2 .k2,#overlay2 .k3,#overlay2 .k4,#overlay2 .k5,#overlay2 .k6,#overlay2 .k7,#overlay2 .k8{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: fit-content;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+    #overlay2 .box2 .k8{
+        border-bottom: 1px solid #c9c8c8cb;
+    }
+    #overlay2 .k1, #overlay2 .k3, #overlay2 .k5, #overlay2 .k7{
+        background-color: rgba(132, 158, 182, 0.26);
+    }
+    #overlay2 .k1 p, #overlay2 .k2 p,#overlay2 .k3 p,#overlay2 .k4 p,#overlay2 .k5 p,#overlay2 .k6 p,#overlay2 .k7 p,#overlay2 .k8 p{
+        padding: 0;
+        margin: 0;
+    }
+    #overlay2 .info .close{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    #overlay2 .info .close button{
+        width: 95%;
+        background-color: #c9c8c8cb;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+    #overlay2 .info .close button:hover{
+        background-image: linear-gradient(to right,rgba(51, 54, 224, 0.733),rgba(90, 182, 224, 0.76));
+        color: white;
+        cursor: pointer;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* Footer ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+    .crta{
+        margin-bottom: 20px;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+}
